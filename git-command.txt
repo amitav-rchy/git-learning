@@ -83,3 +83,7 @@ git checkout master
 git branch main master -f    
 git checkout main  
 git push origin main -f 
+
+
+New Kore Abar push:
+git push origin main -f
