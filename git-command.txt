@@ -1,0 +1,80 @@
+Git Setup:
+1) git config --global user.name "amitav-rchy"
+2) git config --global user.email "amitav.rchy@gmail.com"
+
+Git Start:
+1) git init
+
+Check Status:
+1) git status
+
+Untracked => Staged - (Commit) => Unmodified
+Unmodified => Modified => Staged => Unmodified
+
+
+Stage e Dite Hole: git add filename
+Sobgulo ke eksathe stage e dite hole: git add -A
+
+
+
+Working Directory - Track Kore (Stage) - Local Repo (Ready to go/commit)
+
+
+Staging:
+0) git add filename (targetted file staged hobe)
+1) git add -A (sob folder and subfolder er sob file staged hobe)
+2) git add * (folder er sob file staged hobe but sub folder er na)
+3) git add *.js (folder er targetted file type staged hobe)
+4) git add **/*.js (folder and sub folder er targetted file type staged hobe)
+
+
+Restore:
+1) git restore filename
+
+Unstaged:
+1) git rm --cached filename
+
+To See What is Changing:
+git diff
+
+
+git committ:
+git commit -m "message"
+
+git commit and staging together:
+git commit -am "message"
+
+to see history:
+git log
+
+
+uncommit:
+git reset --soft HEAD^
+
+uncommit and unstaging:
+git reset HEAD^
+
+completely remove:
+git reset --hard HEAD^
+
+to go on a commit:
+git checkout commitid/headnumber
+
+to see a commit:
+git show commit-id
+
+add local to remote:
+git remote add name link
+
+to check:
+git remote -v
+
+clone a file:
+git clone link
+
+To pull something:
+git pull
+
+push:
+git push origin HEAD:master
+
