@@ -87,3 +87,16 @@ git push origin main -f
 
 New Kore Abar push:
 git push origin main -f
+
+make a branch:
+git branch branchname
+
+to go a branch:
+git checkout branchname
+
+to delete a branch:
+git checkout main
+git branch -d branchname
+
+aksathe notun branch toiri and switch:
+git checkout -b "branchname"
